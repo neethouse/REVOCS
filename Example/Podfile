@@ -1,0 +1,9 @@
+target 'REVOCS', :exclusive => true do
+  pod "REVOCS", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "REVOCS", :path => "../"
+
+  pod 'OCMock', '~> 2.2.4'
+end
