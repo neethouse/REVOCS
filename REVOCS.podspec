@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/<GITHUB_USERNAME>/REVOCS"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "mtmta" => "mas@501dev.org" }
+  s.author           = { "mtmta" => "d.masamoto@covelline.com" }
   s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/REVOCS.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

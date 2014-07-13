@@ -20,7 +20,7 @@ it, simply add the following line to your Podfile:
 
 ## Author
 
-mtmta, mas@501dev.org
+mtmta, d.masamoto@covelline.com
 
 ## License
 

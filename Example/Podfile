@@ -5,6 +5,5 @@ end
 target 'Tests', :exclusive => true do
   pod "REVOCS", :path => "../"
 
-  pod 'Specta', '~> 0.2.1'
-  pod 'Expecta'
+  pod 'OCMock', '~> 2.2.4'
 end

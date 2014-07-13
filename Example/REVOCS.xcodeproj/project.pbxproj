@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4241E2F81972360C00614BE6 /* RVXBindingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4241E2F71972360C00614BE6 /* RVXBindingTest.m */; };
+		4241E2FB1972397000614BE6 /* RVXKeyValueBindingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4241E2FA1972397000614BE6 /* RVXKeyValueBindingTest.m */; };
+		426DFBAB197378390039F38F /* RVXThemeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 426DFBAA197378390039F38F /* RVXThemeTest.m */; };
+		426DFBAF197378690039F38F /* TestTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 426DFBAE197378690039F38F /* TestTheme.m */; };
+		429A92E819738138003E8482 /* RVXThemeMacro_Debug_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 429A92E719738138003E8482 /* RVXThemeMacro_Debug_Test.m */; };
+		429A92F31974D5BC003E8482 /* RVXThemeMacro_Release_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 429A92F21974D5BC003E8482 /* RVXThemeMacro_Release_Test.m */; };
+		429A92F51974D645003E8482 /* RVXFilteredBindingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 429A92F41974D645003E8482 /* RVXFilteredBindingTest.m */; };
+		429A92F71974D770003E8482 /* RVXBinding+FilterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 429A92F61974D770003E8482 /* RVXBinding+FilterTest.m */; };
+		429A92F91974D8A6003E8482 /* RVXBinding+UIConvenienceFilterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 429A92F81974D8A6003E8482 /* RVXBinding+UIConvenienceFilterTest.m */; };
+		42D66CE419724BE500141063 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D66CE319724BE500141063 /* Student.m */; };
+		42D66CE719724C2000141063 /* NSObject+RVXBindingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D66CE619724C2000141063 /* NSObject+RVXBindingTest.m */; };
+		42D66CE91972518C00141063 /* RVXBindingDictionaryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D66CE81972518C00141063 /* RVXBindingDictionaryTest.m */; };
+		42D66CED197271E000141063 /* RVXMacro_Debug_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D66CEC197271E000141063 /* RVXMacro_Debug_Test.m */; };
+		42D66CEF197271EC00141063 /* RVXMacro_Release_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D66CEE197271EC00141063 /* RVXMacro_Release_Test.m */; };
+		42D66CF91972763D00141063 /* MyTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D66CF11972763D00141063 /* MyTheme.m */; };
+		42D66CFA1972763D00141063 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D66CF31972763D00141063 /* CustomView.m */; };
+		42D66CFB1972763D00141063 /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D66CF51972763D00141063 /* ExampleViewController.m */; };
+		42D66CFF197278E300141063 /* REVOCSTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D66CFE197278E300141063 /* REVOCSTest.m */; };
+		42D66D03197291C700141063 /* RVXBlockNotifierTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D66D02197291C700141063 /* RVXBlockNotifierTest.m */; };
+		42D66D061972964600141063 /* RVXSelectorNotifierTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D66D051972964600141063 /* RVXSelectorNotifierTest.m */; };
 		4F8998FCA5B14ACEBC2282E5 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47EA5DAFF5DC48EEBBFD1FD3 /* libPods-Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -15,14 +35,11 @@
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* RVXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* RVXAppDelegate.m */; };
 		6003F5A1195388D20070C39A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6003F59F195388D20070C39A /* Main_iPhone.storyboard */; };
-		6003F5A4195388D20070C39A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A2195388D20070C39A /* Main_iPad.storyboard */; };
-		6003F5A7195388D20070C39A /* RVXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* RVXViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		DBCF2796A31B4053A280D91A /* libPods-REVOCS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8D8F9AAAF645DB8519C391 /* libPods-REVOCS.a */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +55,32 @@
 
 /* Begin PBXFileReference section */
 		2C8D8F9AAAF645DB8519C391 /* libPods-REVOCS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-REVOCS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4241E2F71972360C00614BE6 /* RVXBindingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = RVXBindingTest.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4241E2FA1972397000614BE6 /* RVXKeyValueBindingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = RVXKeyValueBindingTest.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		426DFBAA197378390039F38F /* RVXThemeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVXThemeTest.m; sourceTree = "<group>"; };
+		426DFBAD197378690039F38F /* TestTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTheme.h; sourceTree = "<group>"; };
+		426DFBAE197378690039F38F /* TestTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTheme.m; sourceTree = "<group>"; };
+		429A92E719738138003E8482 /* RVXThemeMacro_Debug_Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVXThemeMacro_Debug_Test.m; sourceTree = "<group>"; };
+		429A92F21974D5BC003E8482 /* RVXThemeMacro_Release_Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVXThemeMacro_Release_Test.m; sourceTree = "<group>"; };
+		429A92F41974D645003E8482 /* RVXFilteredBindingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVXFilteredBindingTest.m; sourceTree = "<group>"; };
+		429A92F61974D770003E8482 /* RVXBinding+FilterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RVXBinding+FilterTest.m"; sourceTree = "<group>"; };
+		429A92F81974D8A6003E8482 /* RVXBinding+UIConvenienceFilterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RVXBinding+UIConvenienceFilterTest.m"; sourceTree = "<group>"; };
+		42D66CE219724BE500141063 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		42D66CE319724BE500141063 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		42D66CE619724C2000141063 /* NSObject+RVXBindingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "NSObject+RVXBindingTest.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		42D66CE81972518C00141063 /* RVXBindingDictionaryTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = RVXBindingDictionaryTest.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		42D66CEC197271E000141063 /* RVXMacro_Debug_Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVXMacro_Debug_Test.m; sourceTree = "<group>"; };
+		42D66CEE197271EC00141063 /* RVXMacro_Release_Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVXMacro_Release_Test.m; sourceTree = "<group>"; };
+		42D66CF01972763D00141063 /* MyTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MyTheme.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		42D66CF11972763D00141063 /* MyTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MyTheme.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		42D66CF21972763D00141063 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CustomView.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		42D66CF31972763D00141063 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CustomView.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		42D66CF41972763D00141063 /* ExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ExampleViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		42D66CF51972763D00141063 /* ExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ExampleViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		42D66CFE197278E300141063 /* REVOCSTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REVOCSTest.m; sourceTree = "<group>"; };
+		42D66D02197291C700141063 /* RVXBlockNotifierTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = RVXBlockNotifierTest.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		42D66D04197292C800141063 /* NotifierCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = NotifierCallback.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		42D66D051972964600141063 /* RVXSelectorNotifierTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = RVXSelectorNotifierTest.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		47EA5DAFF5DC48EEBBFD1FD3 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59B1D524802A4430AF2CF5C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* REVOCS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = REVOCS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,25 +89,21 @@
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6003F595195388D20070C39A /* REVOCS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "REVOCS-Info.plist"; sourceTree = "<group>"; };
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		6003F59B195388D20070C39A /* REVOCS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "REVOCS-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* RVXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RVXAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* RVXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RVXAppDelegate.m; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* RVXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = RVXAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		6003F5A0195388D20070C39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		6003F5A3195388D20070C39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* RVXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RVXViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* RVXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RVXViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		7A854F234CE7450AA54054DC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9C21D2BCA455449EB697364C /* Pods-Tests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.xcconfig"; path = "Pods/Pods-Tests.xcconfig"; sourceTree = "<group>"; };
 		A8C36286737F4836A5E95F41 /* Pods-REVOCS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-REVOCS.xcconfig"; path = "Pods/Pods-REVOCS.xcconfig"; sourceTree = "<group>"; };
-		E2B3A93FA02E4A55AFA1C88D /* REVOCS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = REVOCS.podspec; path = ../REVOCS.podspec; sourceTree = "<group>"; };
+		E2B3A93FA02E4A55AFA1C88D /* REVOCS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = REVOCS.podspec; path = ../REVOCS.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +132,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		426DFBAC1973783E0039F38F /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				426DFBAA197378390039F38F /* RVXThemeTest.m */,
+				429A92E719738138003E8482 /* RVXThemeMacro_Debug_Test.m */,
+				429A92F21974D5BC003E8482 /* RVXThemeMacro_Release_Test.m */,
+			);
+			name = Theme;
+			sourceTree = "<group>";
+		};
+		42D66CE519724BE900141063 /* TestHelper */ = {
+			isa = PBXGroup;
+			children = (
+				42D66D04197292C800141063 /* NotifierCallback.h */,
+				42D66CE219724BE500141063 /* Student.h */,
+				42D66CE319724BE500141063 /* Student.m */,
+				426DFBAD197378690039F38F /* TestTheme.h */,
+				426DFBAE197378690039F38F /* TestTheme.m */,
+			);
+			name = TestHelper;
+			sourceTree = "<group>";
+		};
+		42D66D00197291AE00141063 /* Binding */ = {
+			isa = PBXGroup;
+			children = (
+				4241E2F71972360C00614BE6 /* RVXBindingTest.m */,
+				4241E2FA1972397000614BE6 /* RVXKeyValueBindingTest.m */,
+				42D66CE619724C2000141063 /* NSObject+RVXBindingTest.m */,
+				42D66CE81972518C00141063 /* RVXBindingDictionaryTest.m */,
+				429A92F41974D645003E8482 /* RVXFilteredBindingTest.m */,
+				429A92F61974D770003E8482 /* RVXBinding+FilterTest.m */,
+				429A92F81974D8A6003E8482 /* RVXBinding+UIConvenienceFilterTest.m */,
+			);
+			name = Binding;
+			sourceTree = "<group>";
+		};
+		42D66D01197291B900141063 /* Notifier */ = {
+			isa = PBXGroup;
+			children = (
+				42D66D02197291C700141063 /* RVXBlockNotifierTest.m */,
+				42D66D051972964600141063 /* RVXSelectorNotifierTest.m */,
+			);
+			name = Notifier;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -131,12 +215,15 @@
 		6003F593195388D20070C39A /* REVOCS */ = {
 			isa = PBXGroup;
 			children = (
+				42D66CF01972763D00141063 /* MyTheme.h */,
+				42D66CF11972763D00141063 /* MyTheme.m */,
+				42D66CF21972763D00141063 /* CustomView.h */,
+				42D66CF31972763D00141063 /* CustomView.m */,
+				42D66CF41972763D00141063 /* ExampleViewController.h */,
+				42D66CF51972763D00141063 /* ExampleViewController.m */,
 				6003F59C195388D20070C39A /* RVXAppDelegate.h */,
 				6003F59D195388D20070C39A /* RVXAppDelegate.m */,
 				6003F59F195388D20070C39A /* Main_iPhone.storyboard */,
-				6003F5A2195388D20070C39A /* Main_iPad.storyboard */,
-				6003F5A5195388D20070C39A /* RVXViewController.h */,
-				6003F5A6195388D20070C39A /* RVXViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -157,7 +244,13 @@
 		6003F5B5195388D20070C39A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				6003F5BB195388D20070C39A /* Tests.m */,
+				42D66CFE197278E300141063 /* REVOCSTest.m */,
+				42D66CEC197271E000141063 /* RVXMacro_Debug_Test.m */,
+				42D66CEE197271EC00141063 /* RVXMacro_Release_Test.m */,
+				42D66D00197291AE00141063 /* Binding */,
+				42D66D01197291B900141063 /* Notifier */,
+				426DFBAC1973783E0039F38F /* Theme */,
+				42D66CE519724BE900141063 /* TestHelper */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
 			path = Tests;
@@ -233,7 +326,7 @@
 			attributes = {
 				CLASSPREFIX = RVX;
 				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = mtmta;
+				ORGANIZATIONNAME = NeetHouse;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -264,7 +357,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5A4195388D20070C39A /* Main_iPad.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F5A1195388D20070C39A /* Main_iPhone.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -349,8 +441,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42D66CFA1972763D00141063 /* CustomView.m in Sources */,
 				6003F59E195388D20070C39A /* RVXAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* RVXViewController.m in Sources */,
+				42D66CF91972763D00141063 /* MyTheme.m in Sources */,
+				42D66CFB1972763D00141063 /* ExampleViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,7 +453,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				42D66CE91972518C00141063 /* RVXBindingDictionaryTest.m in Sources */,
+				42D66CFF197278E300141063 /* REVOCSTest.m in Sources */,
+				4241E2FB1972397000614BE6 /* RVXKeyValueBindingTest.m in Sources */,
+				42D66CEF197271EC00141063 /* RVXMacro_Release_Test.m in Sources */,
+				42D66CED197271E000141063 /* RVXMacro_Debug_Test.m in Sources */,
+				426DFBAF197378690039F38F /* TestTheme.m in Sources */,
+				429A92E819738138003E8482 /* RVXThemeMacro_Debug_Test.m in Sources */,
+				429A92F31974D5BC003E8482 /* RVXThemeMacro_Release_Test.m in Sources */,
+				42D66D061972964600141063 /* RVXSelectorNotifierTest.m in Sources */,
+				429A92F91974D8A6003E8482 /* RVXBinding+UIConvenienceFilterTest.m in Sources */,
+				4241E2F81972360C00614BE6 /* RVXBindingTest.m in Sources */,
+				429A92F51974D645003E8482 /* RVXFilteredBindingTest.m in Sources */,
+				426DFBAB197378390039F38F /* RVXThemeTest.m in Sources */,
+				42D66CE719724C2000141063 /* NSObject+RVXBindingTest.m in Sources */,
+				42D66D03197291C700141063 /* RVXBlockNotifierTest.m in Sources */,
+				429A92F71974D770003E8482 /* RVXBinding+FilterTest.m in Sources */,
+				42D66CE419724BE500141063 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,14 +498,6 @@
 				6003F5A0195388D20070C39A /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		6003F5A2195388D20070C39A /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6003F5A3195388D20070C39A /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
@@ -491,6 +593,7 @@
 				GCC_PREFIX_HEADER = "REVOCS/REVOCS-Prefix.pch";
 				INFOPLIST_FILE = "REVOCS/REVOCS-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -505,6 +608,7 @@
 				GCC_PREFIX_HEADER = "REVOCS/REVOCS-Prefix.pch";
 				INFOPLIST_FILE = "REVOCS/REVOCS-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
