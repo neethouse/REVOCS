@@ -1,20 +1,17 @@
 PODS:
-  - Expecta (0.3.1)
+  - OCMock (2.2.4)
   - REVOCS (0.1.0)
-  - Specta (0.2.1)
 
 DEPENDENCIES:
-  - Expecta
+  - OCMock (~> 2.2.4)
   - REVOCS (from `../`)
-  - Specta (~> 0.2.1)
 
 EXTERNAL SOURCES:
   REVOCS:
     :path: ../
 
 SPEC CHECKSUMS:
-  Expecta: 03aabd0a89d8dea843baecb19a7fd7466a69a31d
-  REVOCS: 54ed3f386b22fa66de30f74766e453e3fa237309
-  Specta: 9141310f46b1f68b676650ff2854e1ed0b74163a
+  OCMock: 6db79185520e24f9f299548f2b8b07e41d881bd5
+  REVOCS: cc571c2fa7a2250c7336cabc1a4d69d29751fd08
 
 COCOAPODS: 0.33.1
