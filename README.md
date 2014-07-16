@@ -1,6 +1,6 @@
 # REVOCS
 
-[![CI Status](http://img.shields.io/travis/mtmta/REVOCS.svg?style=flat)](https://travis-ci.org/mtmta/REVOCS)
+[![CI Status](http://img.shields.io/travis/neethouse/REVOCS.svg?style=flat)](https://travis-ci.org/neethouse/REVOCS)
 [![Version](https://img.shields.io/cocoapods/v/REVOCS.svg?style=flat)](http://cocoadocs.org/docsets/REVOCS)
 [![License](https://img.shields.io/cocoapods/l/REVOCS.svg?style=flat)](http://cocoadocs.org/docsets/REVOCS)
 [![Platform](https://img.shields.io/cocoapods/p/REVOCS.svg?style=flat)](http://cocoadocs.org/docsets/REVOCS)
