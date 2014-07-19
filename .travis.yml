@@ -2,4 +2,7 @@ reference: http://www.objc.io/issue-6/travis-ci.html
 language: objective-c
 cache: bundler
 script:
-- xctool test -workspace Example/REVOCS.xcworkspace -scheme REVOCS -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+- cd Example && pod install && cd -
+- xctool test -workspace Example/REVOCS.xcworkspace -scheme REVOCS -sdk iphonesimulator7.1 ONLY_ACTIVE_ARCH=NO
+before_install:
+- gem install -no-ri -no-rdoc cocoapods
