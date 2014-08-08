@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "REVOCS"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "The UI design specialized binding library"
   s.description      = <<-DESC
                        REVOCS simplify the implementation of the theme feature for iOS apps.
