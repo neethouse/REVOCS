@@ -14,7 +14,7 @@
                          object:(id)object
                        selector:(SEL)selector;
 
-@property (nonatomic, readonly) id object;
+@property (nonatomic, readonly, weak) id object;
 
 @property (nonatomic, readonly) SEL selector;
 
